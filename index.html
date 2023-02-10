@@ -556,7 +556,7 @@
                       </h5>
                     </div>
                     <div>
-                      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                      <form action="" id="form" class="php-email-form">
                         <div class="row">
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
@@ -568,25 +568,16 @@
                               <input type="email" class="form-control" name="email" id="email" placeholder="Tu Email" required>
                             </div>
                           </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required>
-                            </div>
-                          </div>
                           <div class="col-md-12">
                             <div class="form-group">
                               <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
                             </div>
                           </div>
-                          <div class="col-md-12 text-center my-3">
-                            <div class="loading">Cargando</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Tu mensaje ha sido enviado.</div>
-                          </div>
                           <div class="col-md-12 text-center">
                             <button type="submit" class="button button-a button-big button-rouded">Enviar</button>
                           </div>
                         </div>
+                        <a href="mailto:hector.pascual.marin@gmail.com" id="miEmail"></a>
                       </form>
                     </div>
                   </div>
